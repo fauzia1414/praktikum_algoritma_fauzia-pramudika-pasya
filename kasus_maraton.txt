@@ -13,6 +13,7 @@ ALGORITMA:
  jam <-total_detik DIV 3600
  sisa_detik <-total_detik MOD 3600
  menit <- sisa_detik MOD 60
+ detik <- sisa_detik MOD 
 
 write(jam)
 write(menit)
